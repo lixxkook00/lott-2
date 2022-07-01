@@ -718,3 +718,70 @@ button{
     justify-content: start;
     padding-right: 300px;
 }
+
+.video-wrapper{
+    position: relative;
+}
+
+.video-icon{
+    width: 30%;
+}
+
+.video-icon:hover{
+    cursor: pointer;
+}
+
+.video-icon:hover .video-content{
+    opacity: 1;
+}
+
+
+
+.video-content{
+    width: 300px;
+    opacity: 0;
+    transition: all 0.5s linear;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-100%);
+}
+
+.video-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 26%;
+}
+
+.video-item-1{
+    top: 34.8%;
+    left: -3.5%;
+}
+
+.video-item-2{
+    top: 44.8%;
+    left: 11%;
+}
+
+.video-item-3{
+    top: 34.8%;
+    left: 28.2%;
+}
+
+.video-item-4{
+    top: 46.8%;
+    left: 43.2%;
+}
+
+.video-item-5{
+    top: 34.8%;
+    left: 61.4%;
+}
+
+.video-item-6{
+    top: 44.8%;
+    left: 76.6%;
+}

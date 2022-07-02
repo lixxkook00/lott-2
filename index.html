@@ -605,7 +605,7 @@
     </div>
 
     <!-- VIDEOS -->
-    <section id="video" id="video" class="video hidden-m-t">
+    <section id="video" id="video" class="video">
         <div class="container ">
             <div class="row">
                 <div class="col-xl-12 centering">
@@ -618,66 +618,79 @@
         </div>
         <div class="container">
             <div class="video-wrapper">
-                <img src="./img/video-bg.png" alt="">
+                <!-- BACKGROUND PC -->
+                <img class="hidden-m-t" src="./img/video-bg.png" alt="">
+
+                <!-- BACKGROUND MOBILE -->
+                <img class="hide-on-pc" src="./img/video-bg-mobile.png" alt="">
 
                 <div class="video-item video-item-1">
-                    <div class="video-icon">
+                    <div class="video-icon" data-video="0" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="./img/video-1.png" alt="">
-                        <div class="video-content">
+                        <!-- <div class="video-content">
                             <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class="video-item video-item-2">
-                    <div class="video-icon">
-                        <div class="video-content">
+                    <div class="video-icon" data-video="1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <div class="video-content">
                             <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </div> -->
                         <img src="./img/video-2.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-3">
-                    <div class="video-icon">
-                        <div class="video-content">
+                    <div class="video-icon" data-video="2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <div class="video-content">
                             <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </div> -->
                         <img src="./img/video-3.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-4">
-                    <div class="video-icon">
-                        <div class="video-content">
+                    <div class="video-icon" data-video="3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <div class="video-content">
                             <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </div> -->
                         <img src="./img/video-4.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-5">
-                    <div class="video-icon">
-                        <div class="video-content">
+                    <div class="video-icon" data-video="4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <div class="video-content">
                             <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </div> -->
                         <img src="./img/video-5.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-6">
-                    <div class="video-icon">
-                        <div class="video-content">
+                    <div class="video-icon" data-video="5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <div class="video-content">
                             <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </div> -->
                         <img src="./img/video-6.png" alt="">
+                    </div>
+                </div>
+
+                <div class="video-item video-item-7">
+                    <div class="video-icon" data-video="6" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <!-- <div class="video-content">
+                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div> -->
+                        <img src="./img/video-7.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="video" id="video" class="video hide-on-pc">
+    <!-- <section id="video" id="video" class="video hide-on-pc">
         <div class="container ">
             <div class="row">
                 <div class="col-xl-12 centering">
@@ -695,59 +708,69 @@
                 <div class="video-item video-item-1">
                     <div class="video-icon">
                         <img src="./img/video-1.png" alt="">
-                        <div class="video-content">
-                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
                     </div>
                 </div>
 
                 <div class="video-item video-item-2">
                     <div class="video-icon">
-                        <div class="video-content">
-                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
                         <img src="./img/video-2.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-3">
                     <div class="video-icon">
-                        <div class="video-content">
-                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
                         <img src="./img/video-3.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-4">
                     <div class="video-icon">
-                        <div class="video-content">
-                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
                         <img src="./img/video-4.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-5">
                     <div class="video-icon">
-                        <div class="video-content">
-                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
                         <img src="./img/video-5.png" alt="">
                     </div>
                 </div>
 
                 <div class="video-item video-item-6">
                     <div class="video-icon">
-                        <div class="video-content">
-                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
                         <img src="./img/video-6.png" alt="">
+                    </div>
+                </div>
+
+                 <div class="video-item video-item-7">
+                    <div class="video-icon">
+                        <img src="./img/video-7.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <!-- VIDEO MODAL-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog centering">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body centering">
+                   <div class="video-content">
+                        <iframe width="100%" src="https://www.youtube.com/embed/pFLl-4zz0AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Đóng
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- REGISTER -->
     <div class="register">
@@ -829,6 +852,6 @@
 
 </body>
 </html>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="./js/main.js"></script>

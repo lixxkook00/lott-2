@@ -143,6 +143,14 @@
     .about-img{
         padding: 0;
     }
+
+    .video-content iframe {
+        height: 230px;
+    }
+    
+    .modal-control{
+        display: none;
+    }
 }
 
 /* 500*/
